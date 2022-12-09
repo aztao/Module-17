@@ -1,3 +1,60 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    font-family:"Nunito Sans";
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+.hero-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero.png");
+  
+    /* Set a specific height */
+    /*height: 100%;*/
+
+    width: 100%;
+    height: 60%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+.hero-text {
+    text-align: left;
+    margin-left: 22%;
+    color: #FDFDFC;
+  }  
+
+h1{
+    font-family: "Noto Serif", serif;
+    font-size: 96;
+    color: #FDFDFC;
+}
+
 body{
     background-color: #121212;
 }
