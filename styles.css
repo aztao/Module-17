@@ -2,45 +2,49 @@
 .topnav {
     font-family:"Nunito Sans";
     overflow: hidden;
+    position: sticky;
+    top: 0;
   }
   
   /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+    color: white;
+    border-bottom: 3px solid white;
   }
   
   /* Add a color to the active/current link */
   .topnav a.active {
-    background-color: #04AA6D;
     color: white;
+    border-bottom: 3px solid white;
   }
 
 .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero.png");
+    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero2.png");
   
     /* Set a specific height */
     /*height: 100%;*/
 
     width: 100%;
-    height: 60%;
+    height: 100%;
   
     /* Position and center the image to scale nicely on all screens */
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    position: static;
+    
   }
 
 .hero-text {
@@ -49,11 +53,38 @@
     color: #FDFDFC;
   }  
 
+
+#container {
+  position: relative;
+  width: 450px;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0 auto;
+}
+/*img {
+
+  box-shadow: 0 0 10px 0 #222;
+}*/
+#overlay {
+  position: relative;
+  left: 17%;
+  top: 0;
+  width: 83%;
+  z-index: 1;
+  color: rgba(209, 206, 209, 0.4);
+  font-size: 50px;
+  text-align: center;
+  line-height: 100px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
+}
+
 h1{
     font-family: "Noto Serif", serif;
     font-size: 96;
     color: #FDFDFC;
 }
+
+
 
 body{
     background-color: #121212;
