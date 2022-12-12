@@ -1,4 +1,26 @@
-/* Add a black background color to the top navigation */
+.heroContainer {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: static;
+  overflow: hidden;
+}
+
+.heroBox {
+  width: 83%;
+  height: 509px;
+  top: 227px;
+  background-image: url("images/container1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  padding: 50px;
+}
+
 .topnav {
     font-family:"Nunito Sans";
     overflow: hidden;
@@ -6,11 +28,10 @@
     top: 0;
   }
   
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: left;
   display: block;
-  color: #f2f2f2;
+  color: #FDFDFC;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -18,54 +39,78 @@
   border-bottom: 3px solid transparent;
   }
   
-  /* Change the color of links on hover */
   .topnav a:hover {
-    color: white;
-    border-bottom: 3px solid white;
+    color: #FDFDFC;
+    border-bottom: 3px solid #FDFDFC;
   }
   
-  /* Add a color to the active/current link */
   .topnav a.active {
-    color: white;
-    border-bottom: 3px solid white;
-  }
-
-.hero-image {
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero2.png");
-  
-    /* Set a specific height */
-    /*height: 100%;*/
-
-    width: 100%;
-    height: 100%;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: top;
-    background-repeat: no-repeat;
-    position: static;
-    
+    color: #FDFDFC;
+    border-bottom: 3px solid #FDFDFC;
   }
 
 .hero-text {
     text-align: left;
-    margin-left: 22%;
+    margin-left: 10%;
     color: #FDFDFC;
   }  
 
+h1{
+    font-family: "Noto Serif", serif;
+    font-size: 96;
+    color: #FDFDFC;
+}
 
-#container {
+header{
+  font-family: "Nunito Sans";
+  font-size: 24;
+  color: #FDFDFC;
+}
+
+
+h2{
+  font-family: "Noto Serif", serif;
+    font-size: 84;
+    color: #FDFDFC;
+    text-align: center;
+}
+
+
+body{
+    background-color: #121212;
+}
+
+/*.header {
+  padding: 60px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}*/
+
+/*.hero-image {
+    Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read
+    background-image: linear-gradient(to bottom,rgba(18, 18, 18, 1), rgba(0, 0, 0, 0)), url("images/hero2.png");
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-repeat: no-repeat;
+    position: static;
+  }
+  */
+  /*#container {
   position: relative;
   width: 450px;
   top: 50%;
   transform: translateY(-50%);
   margin: 0 auto;
-}
+}*/
+
 /*img {
 
   box-shadow: 0 0 10px 0 #222;
 }*/
-#overlay {
+
+/*#overlay {
   position: relative;
   left: 17%;
   top: 0;
@@ -76,21 +121,4 @@
   text-align: center;
   line-height: 100px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
-}
-
-h1{
-    font-family: "Noto Serif", serif;
-    font-size: 96;
-    color: #FDFDFC;
-}
-
-h2{
-  font-family: "Noto Serif", serif;
-    font-size: 84;
-    color: #FDFDFC;
-    text-align: center;
-}
-
-body{
-    background-color: #121212;
-}
+}*/
