@@ -84,7 +84,12 @@ h1{
     color: #FDFDFC;
 }
 
-
+h2{
+  font-family: "Noto Serif", serif;
+    font-size: 84;
+    color: #FDFDFC;
+    text-align: center;
+}
 
 body{
     background-color: #121212;
