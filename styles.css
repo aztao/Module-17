@@ -11,25 +11,65 @@
 
 .heroBox {
   width: 83%;
-  height: 509px;
+  height: 200px;
   top: 227px;
   background-image: url("images/container1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  padding: 50px;
+  margin: auto;
+  padding: 5%;
+  border-radius: 25px;
 }
 
 .topnav {
-    font-family:"Nunito Sans";
-    overflow: hidden;
-    position: sticky;
-    top: 0;
-  }
+  font-family:"Nunito Sans";
+  font-size: 24pt;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  /*background-color: hsla(0, 0%, 0%, 0.25);*/
+}
   
-  .topnav a {
-    float: left;
+.logo {
+  position: relative;
+  left:10px;
+  top:10px;
+}
+
+.bar {
+  margin: right;
+}
+
+.searchBar {
+  float: right;
+  width: 229px;
+  height: 52px;
+  left: 1119px;
+  top: 38px;
+  background: linear-gradient(99.82deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.03) 103.99%);
+  box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+  border-radius: 5px;
+}
+
+.iconBar{
+  margin:auto;
+}
+
+.searchIcon{
+  float: right;
+  padding: 5%;
+}
+
+.calendarIcon{
+  position: relative;
+}
+
+.topnav a {
+  float: left;
+  left:50px;
   display: block;
   color: #FDFDFC;
   text-align: center;
@@ -37,48 +77,221 @@
   text-decoration: none;
   font-size: 17px;
   border-bottom: 3px solid transparent;
-  }
+ 
+}
   
-  .topnav a:hover {
-    color: #FDFDFC;
-    border-bottom: 3px solid #FDFDFC;
-  }
-  
-  .topnav a.active {
-    color: #FDFDFC;
-    border-bottom: 3px solid #FDFDFC;
-  }
+.topnav a:hover {
+  color: #FDFDFC;
+  border-bottom: 3px solid #FDFDFC;
+}
+
+.topnav a.active {
+  color: #FDFDFC;
+  border-bottom: 3px solid #FDFDFC;
+}
 
 .hero-text {
-    text-align: left;
-    margin-left: 10%;
-    color: #FDFDFC;
-  }  
+  text-align: left;
+  margin-left: 10%;
+  color: #FDFDFC;
+}  
 
 h1{
-    font-family: "Noto Serif", serif;
-    font-size: 96;
-    color: #FDFDFC;
+  font-family: "Noto Serif", serif;
+  font-size: 96;
+  font-weight: 400;
+  color: #FDFDFC;
 }
 
 header{
   font-family: "Nunito Sans";
   font-size: 24;
+  font-weight: 700;
   color: #FDFDFC;
 }
 
+.button0{
+  padding: 1% 5% 1% 5%;
+  background-color: #FDFDFC;
+  font-family: "Nunito Sans", bold;
+  font-size: 48;
+  color: #0A0A0A;
+  border: none;
+  border-radius: 10px;
+  position: relative;
+}
+
+.button1{
+  padding: 1% 5% 1% 5%;
+  background-color: #FDFDFC;
+  font-family: "Nunito Sans", bold;
+  font-size: 48;
+  color: #0A0A0A;
+  border: none;
+  border-radius: 10px;
+  float: right;
+}
+
+.button2{
+  padding: 1% 5% 1% 5%;
+  background-color: #00381A;
+  font-family: "Nunito Sans", bold;
+  font-size: 24;
+  color: #FDFDFC;
+  border: none;
+  border-radius: 10px;
+  float: right;
+}
+
+.button3{
+  padding: 1% 5% 1% 5%;
+  background-color: #3A844A;
+  font-family: "Nunito Sans", bold;
+  font-size: 20;
+  color: #FDFDFC;
+  border: none;
+  border-radius: 10px;
+  float: right;
+}
 
 h2{
   font-family: "Noto Serif", serif;
-    font-size: 84;
-    color: #FDFDFC;
-    text-align: center;
+  font-size: 84;
+  color: #FDFDFC;
+  text-align: center;
 }
 
+h3{
+  font-family: "Nunito Sans", bold;
+  font-size: 48;
+  color: #FDFDFC;
+  text-align: center;
+}
+
+h4{
+  font-family: "Noto Serif", serif;
+  font-size: 40;
+  color: #FDFDFC;
+  text-align: left;
+}
 
 body{
-    background-color: #121212;
+  background-color: #121212;
 }
+
+.parentRow1 {
+  display: flex;
+  height: 50%;
+  width: 90%;
+  margin: auto;
+  flex-direction: row;
+  background-color: #121212;
+}
+
+.childContainer1 {
+  display: flex;
+  flex-direction: column;
+  background-color: #3A844A;
+  font-family: "Nunito Sans";
+  font-size: 20;
+  color: #FDFDFC;
+  padding: 5%;
+} 
+
+.parentRow2{
+  display: flex;
+  height: 5%;
+  width: 5%;
+  flex-direction: row;
+}
+
+.childContainer2{
+  flex-direction: column;
+  display:flex;
+  background-color: #121212;
+  font-family: "Nunito Sans";
+  font-size: 20;
+  color: #FDFDFC;
+  padding: 5%;
+}
+
+hr{
+  color: #FDFDFC;
+}
+
+footer{
+  font-family: "Nunito Sans", bold;
+  font-size: 24;
+  color: #FDFDFC;
+}
+
+.footContainer{
+  display: flex;
+  height: 50%;
+  width: 90%;
+  flex-direction: column;
+}
+
+.footBox{
+  float: right;
+}
+
+
+/* parent and child containers
+
+all children are the same size - attempt flexbox
+
+psuedocode:
+
+container for the first set (two children in one container)
+
+.parentRow1 {
+  display: flex;
+  height: 634px;
+  width: 1236px;
+  margin: auto;
+  flex-direction: row;
+  background-color: #121212;
+}
+
+.childContainer1 {
+  display: flex;
+  padding:;
+  margin:;
+  background-color: #3A844A;
+} 
+
+container for the 2nd set (three children in one container)
+
+.parentRow2{ //this parent container is invisible
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+}
+
+.childContainer2{
+  display:flex;
+  padding:;
+  margin:;
+}
+
+.row{
+  flex-direction: row;
+}
+
+*/
+
+/* footer
+
+list of links
+
+container of a list of icons
+
+container with 3 icons
+
+*/
+
+/*scraps*/
 
 /*.header {
   padding: 60px;
